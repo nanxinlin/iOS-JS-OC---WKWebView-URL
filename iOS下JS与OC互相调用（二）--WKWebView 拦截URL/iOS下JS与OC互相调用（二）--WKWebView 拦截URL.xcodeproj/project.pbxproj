@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7A202161F14D0090034B4B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A202151F14D0090034B4B5 /* main.m */; };
+		A7A202191F14D0090034B4B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A202181F14D0090034B4B5 /* AppDelegate.m */; };
+		A7A2021C1F14D0090034B4B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A2021B1F14D0090034B4B5 /* ViewController.m */; };
+		A7A2021F1F14D0090034B4B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7A2021D1F14D0090034B4B5 /* Main.storyboard */; };
+		A7A202211F14D0090034B4B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7A202201F14D0090034B4B5 /* Assets.xcassets */; };
+		A7A202241F14D0090034B4B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7A202221F14D0090034B4B5 /* LaunchScreen.storyboard */; };
+		A7A2022C1F14D1ED0034B4B5 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = A7A2022B1F14D1ED0034B4B5 /* index.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7A202111F14D0090034B4B5 /* iOS下JS与OC互相调用（二）--WKWebView 拦截URL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS下JS与OC互相调用（二）--WKWebView 拦截URL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A202151F14D0090034B4B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7A202171F14D0090034B4B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7A202181F14D0090034B4B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7A2021A1F14D0090034B4B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A7A2021B1F14D0090034B4B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A7A2021E1F14D0090034B4B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7A202201F14D0090034B4B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7A202231F14D0090034B4B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7A202251F14D0090034B4B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7A2022B1F14D1ED0034B4B5 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7A2020E1F14D0090034B4B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7A202081F14D0090034B4B5 = {
+			isa = PBXGroup;
+			children = (
+				A7A202131F14D0090034B4B5 /* iOS下JS与OC互相调用（二）--WKWebView 拦截URL */,
+				A7A202121F14D0090034B4B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7A202121F14D0090034B4B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7A202111F14D0090034B4B5 /* iOS下JS与OC互相调用（二）--WKWebView 拦截URL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7A202131F14D0090034B4B5 /* iOS下JS与OC互相调用（二）--WKWebView 拦截URL */ = {
+			isa = PBXGroup;
+			children = (
+				A7A2022B1F14D1ED0034B4B5 /* index.html */,
+				A7A202171F14D0090034B4B5 /* AppDelegate.h */,
+				A7A202181F14D0090034B4B5 /* AppDelegate.m */,
+				A7A2021A1F14D0090034B4B5 /* ViewController.h */,
+				A7A2021B1F14D0090034B4B5 /* ViewController.m */,
+				A7A2021D1F14D0090034B4B5 /* Main.storyboard */,
+				A7A202201F14D0090034B4B5 /* Assets.xcassets */,
+				A7A202221F14D0090034B4B5 /* LaunchScreen.storyboard */,
+				A7A202251F14D0090034B4B5 /* Info.plist */,
+				A7A202141F14D0090034B4B5 /* Supporting Files */,
+			);
+			path = "iOS下JS与OC互相调用（二）--WKWebView 拦截URL";
+			sourceTree = "<group>";
+		};
+		A7A202141F14D0090034B4B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7A202151F14D0090034B4B5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7A202101F14D0090034B4B5 /* iOS下JS与OC互相调用（二）--WKWebView 拦截URL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7A202281F14D0090034B4B5 /* Build configuration list for PBXNativeTarget "iOS下JS与OC互相调用（二）--WKWebView 拦截URL" */;
+			buildPhases = (
+				A7A2020D1F14D0090034B4B5 /* Sources */,
+				A7A2020E1F14D0090034B4B5 /* Frameworks */,
+				A7A2020F1F14D0090034B4B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS下JS与OC互相调用（二）--WKWebView 拦截URL";
+			productName = "iOS下JS与OC互相调用（二）--WKWebView 拦截URL";
+			productReference = A7A202111F14D0090034B4B5 /* iOS下JS与OC互相调用（二）--WKWebView 拦截URL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7A202091F14D0090034B4B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = nanxinlin;
+				TargetAttributes = {
+					A7A202101F14D0090034B4B5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 86T459V69W;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A7A2020C1F14D0090034B4B5 /* Build configuration list for PBXProject "iOS下JS与OC互相调用（二）--WKWebView 拦截URL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7A202081F14D0090034B4B5;
+			productRefGroup = A7A202121F14D0090034B4B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7A202101F14D0090034B4B5 /* iOS下JS与OC互相调用（二）--WKWebView 拦截URL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7A2020F1F14D0090034B4B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A202241F14D0090034B4B5 /* LaunchScreen.storyboard in Resources */,
+				A7A2022C1F14D1ED0034B4B5 /* index.html in Resources */,
+				A7A202211F14D0090034B4B5 /* Assets.xcassets in Resources */,
+				A7A2021F1F14D0090034B4B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7A2020D1F14D0090034B4B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A2021C1F14D0090034B4B5 /* ViewController.m in Sources */,
+				A7A202191F14D0090034B4B5 /* AppDelegate.m in Sources */,
+				A7A202161F14D0090034B4B5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7A2021D1F14D0090034B4B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7A2021E1F14D0090034B4B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7A202221F14D0090034B4B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7A202231F14D0090034B4B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7A202261F14D0090034B4B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7A202271F14D0090034B4B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7A202291F14D0090034B4B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 86T459V69W;
+				INFOPLIST_FILE = "iOS下JS与OC互相调用（二）--WKWebView 拦截URL/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nanxinlin.iOS-JS-OC---------WKWebView---URL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7A2022A1F14D0090034B4B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 86T459V69W;
+				INFOPLIST_FILE = "iOS下JS与OC互相调用（二）--WKWebView 拦截URL/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nanxinlin.iOS-JS-OC---------WKWebView---URL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7A2020C1F14D0090034B4B5 /* Build configuration list for PBXProject "iOS下JS与OC互相调用（二）--WKWebView 拦截URL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A202261F14D0090034B4B5 /* Debug */,
+				A7A202271F14D0090034B4B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7A202281F14D0090034B4B5 /* Build configuration list for PBXNativeTarget "iOS下JS与OC互相调用（二）--WKWebView 拦截URL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A202291F14D0090034B4B5 /* Debug */,
+				A7A2022A1F14D0090034B4B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7A202091F14D0090034B4B5 /* Project object */;
+}

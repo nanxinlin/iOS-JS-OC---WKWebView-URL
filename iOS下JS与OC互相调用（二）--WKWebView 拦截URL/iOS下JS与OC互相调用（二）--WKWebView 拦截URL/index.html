@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>iOS下JS与OC互相调用（一）--UIWebView 拦截URL</title>
+    <script type="text/javascript">
+        function loadURL(url) {
+            var iFrame;
+            iFrame = document.createElement("iframe");
+            iFrame.setAttribute("src", url);
+            iFrame.setAttribute("style", "display:none;");
+            iFrame.setAttribute("height", "0px");
+            iFrame.setAttribute("width", "0px");
+            iFrame.setAttribute("frameborder", "0");
+            document.body.appendChild(iFrame);
+            // 发起请求后这个iFrame就没用了，所以把它从dom上移除掉
+            iFrame.parentNode.removeChild(iFrame);
+            iFrame = null;
+        }
+
+        function scanClick() {
+            loadURL("haleyAction://scanClick");
+        }
+        function locationClick() {
+            loadURL("haleyAction://locationClick");
+        }
+        function colorClick() {
+            loadURL("haleyAction://colorClick");
+        }
+        function shareClick() {
+            loadURL("haleyAction://shareClick?title=测试分享的标题&content=测试分享的内容&url=http://www.baidu.com");
+        }
+        function payClick() {
+            loadURL("haleyAction://payClick");
+        }
+        function goBack() {
+            loadURL("haleyAction://goBack");
+        }
+        function asyncAlert(content) {
+            setTimeout(function(){
+                alert(content);
+            },1);
+        }
+        function setLocation(location) {
+            asyncAlert(location);
+            document.getElementById("returnValue").value = location;
+        }
+        function shareResult(title,content,url) {
+            var str = title+content+url;
+            asyncAlert(str);
+            document.getElementById("returnValue").value = str;
+        }
+
+    </script>
+</head>
+<body>
+<h1>iOS下JS与OC互相调用（一）--UIWebView 拦截URL</h1>
+<input type="button" value="扫一扫" onclick="scanClick()" />
+<input type="button" value="获取定位" onclick="locationClick()" />
+<input type="button" value="修改背景色" onclick="colorClick()" />
+<input type="button" value="分享" onclick="shareClick()" />
+<input type="button" value="支付" onclick="payClick()" />
+<input type="button" value="返回" onclick="goBack()" />
+</body>
+</html>
